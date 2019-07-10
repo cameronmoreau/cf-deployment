@@ -2460,9 +2460,9 @@ releases:
   version: 1.10.0
   sha1: 255cfb2815e692576efd5caa082f5a48f6799ca0
 - name: uaa
-  url: https://bosh.io/d/github.com/cloudfoundry/uaa-release?v=72.0
-  version: "72.0"
-  sha1: 7130e5ac640ed1e1f52c09e76995e4d0680f3b45
+  url: https://bosh.io/d/github.com/cloudfoundry/uaa-release?v=73.6.0
+  version: 73.6.0
+  sha1: 6afb3fd23efa85c1807f4ef46e7724b72ceed302
 - name: loggregator-agent
   url: https://bosh.io/d/github.com/cloudfoundry/loggregator-agent-release?v=3.9
   version: "3.9"
