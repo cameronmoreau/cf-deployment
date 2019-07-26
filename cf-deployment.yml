@@ -986,9 +986,9 @@ instance_groups:
   - name: policy-server-internal
     release: cf-networking
     properties:
-      ca_cert: ((network_policy_server.ca))
-      server_cert: ((network_policy_server.certificate))
-      server_key: ((network_policy_server.private_key))
+      ca_cert: ((network_policy_server_internal_tls.ca))
+      server_cert: ((network_policy_server_internal_tls.certificate))
+      server_key: ((network_policy_server_internal_tls.private_key))
   - name: cc_uploader
     release: capi
     properties:
@@ -1725,7 +1725,7 @@ variables:
     extended_key_usage:
     - server_auth
   type: certificate
-- name: network_policy_server
+- name: network_policy_server_internal_tls
   type: certificate
   options:
     ca: network_policy_ca
